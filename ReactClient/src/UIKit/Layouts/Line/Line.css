@@ -1,0 +1,24 @@
+.Line {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 100%;
+}
+
+.Line.wide {
+  gap: 20px;
+}
+
+.Line.center {
+  justify-content: center;
+  height: auto;
+}
+
+.Line.between {
+  justify-content: space-between;
+}
+
+.Line.rows {
+  flex-direction: column;
+  align-items: stretch;
+}

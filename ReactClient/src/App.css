@@ -1,0 +1,30 @@
+html,
+body,
+#root,
+.app {
+  height: 100%;
+}
+
+body,
+button,
+input {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a.active {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+}

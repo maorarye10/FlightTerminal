@@ -1,0 +1,7 @@
+.Btn {
+  background-color: aqua;
+  color: #333;
+  padding: 5px 10px;
+  height: 40px;
+  cursor: pointer;
+}
